@@ -1,6 +1,6 @@
 # PhishGuard Email Analyzer
 
-![PhishGuard Logo](phishguard.jpg)
+![PhishGuard Logo](phishing.jpg)
 
 ## Overview
 
