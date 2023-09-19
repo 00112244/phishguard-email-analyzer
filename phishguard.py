@@ -76,6 +76,9 @@ def print_name(text, font="standard", color="white", style=""):
 def print_welcome_message():
     welcome_message = "Welcome to the Email Analysis Tool!\nThis tool allows you to analyze email for phishing and spoof mails."
     print_text_in_rectangle(welcome_message, text_color=Fore.GREEN)
+    print("                                 A tool for email phishing and spoofing analyzer")
+    print("                                                      By: Hariharan (00112244)\n")
+
 
 # Function to print text inside a rectangle
 def print_text_in_rectangle(text, text_color=Fore.WHITE):
@@ -98,7 +101,7 @@ def main():
 
     if args.file_path:
         # Print a name using the print_name function
-        print_name("Example Name", font="standard", color="green", style="bold")
+        print_name("PhishGuard Email Anlayzer", font="standard", color="green", style="bold")
 
         try:
             email_content_and_links = read_email_content_and_links(args.file_path)
